@@ -31,3 +31,8 @@ The Mixer was created in the Python 3.6.0 programming language. The GUI was crea
 ![](https://raw.githubusercontent.com/user0706/Mixer-v2/master/Ignore/Train.png)
 ![](https://raw.githubusercontent.com/user0706/Mixer-v2/master/Ignore/Evaluation.png)
 ![](https://raw.githubusercontent.com/user0706/Mixer-v2/master/Ignore/Test.png)
+
+## References
+Thanks a lot:
+⋅⋅* [svgrepo](https://www.svgrepo.com) for icons
+⋅⋅* [scikit-learn](https://scikit-learn.org/stable/) for Naive Bayes methods
