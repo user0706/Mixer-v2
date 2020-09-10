@@ -24,4 +24,9 @@ The selected model is tested here. After entering the sentence the classificatio
 The Mixer was created in the Python 3.6.0 programming language. The GUI was created in QtDesigner and PyQt5 v.5.14.2.
 
 ## Screenshots
-![]()
+![](https://raw.githubusercontent.com/user0706/Mixer-v2/master/Ignore/Import.png)
+![](https://raw.githubusercontent.com/user0706/Mixer-v2/master/Ignore/Schema.png)
+![](https://raw.githubusercontent.com/user0706/Mixer-v2/master/Ignore/Analyze.png)
+![](https://raw.githubusercontent.com/user0706/Mixer-v2/master/Ignore/Train.png)
+![](https://raw.githubusercontent.com/user0706/Mixer-v2/master/Ignore/Evaluation.png)
+![](https://raw.githubusercontent.com/user0706/Mixer-v2/master/Ignore/Test.png)
