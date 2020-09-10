@@ -1,7 +1,9 @@
 <p align="center">
   <img height="120" src="https://raw.githubusercontent.com/user0706/Mixer-v2/master/Ignore/Logo_v2_beta.png">
 </p>
+
 # About Mixer
+
 Mixer is a relatively small and simple tool for creating models for text classification, inspired by Cloud AutoML. But with Mixer, the whole process takes place locally, offline. So the training speed of the model depends not only on the size of the input dataset, but also on the performance of the user's computer. Uses some of the supervised learning algorithms - [Naive Bayes](https://scikit-learn.org/stable/modules/naive_bayes.html) methods
 
 Mixer is a multilingual program, ie language independent. All font types that UTF-8 supports are also supported by the Mixer.
