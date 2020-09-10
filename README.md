@@ -1,5 +1,5 @@
 <p align="center">
-  <img height="120" src="https://raw.githubusercontent.com/user0706/Mixer-v2/master/Ignore/Logo_v2_beta.png">
+  <img height="100" src="https://raw.githubusercontent.com/user0706/Mixer-v2/master/Ignore/Logo_v2_beta.png">
 </p>
 
 # About Mixer
