@@ -6,9 +6,15 @@
 
 The purpose of this program is to enable users who do not understand much about programming, that they can create a text classification model.
 
-Mixer is a relatively small and simple tool for creating models for text classification, inspired by Cloud AutoML. But with Mixer, the whole process takes place locally, offline. So the training speed of the model depends not only on the size of the input dataset, but also on the performance of the user's computer. Uses some of the supervised learning algorithms - [Naive Bayes](https://scikit-learn.org/stable/modules/naive_bayes.html) methods
-
-Mixer is a multilingual program, ie language independent. All font types that UTF-8 supports are also supported by the Mixer.
+Mixer is a relatively small and simple tool for creating models for text classification, inspired by Cloud AutoML. But with Mixer: 
+```diff
++ The whole process takes place locally, offline.
++ The raw dataset as well as the trained model is not stored anywhere online.
++ Uses some of the supervised learning algorithms - [Naive Bayes](https://scikit-learn.org/stable/modules/naive_bayes.html) methods.
++ Mixer is a multilingual program, ie language independent. (Not tested)
+! So the training speed of the model depends not only on the size of the input dataset, but also on the performance of the user's computer.
+```
+All font types that UTF-8 supports are also supported by the Mixer.
 ### Import tab
 The home tab is import tab. Uses tabular data that you import to train the model. 
 <br>Your dataset must have a minimum of two columns: sentences and targets. 
