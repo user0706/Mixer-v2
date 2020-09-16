@@ -12,7 +12,7 @@ Mixer is a relatively small and simple tool for creating models for text classif
 + The raw dataset as well as the trained model is not stored anywhere online.
 + Uses some of the supervised learning algorithms - Naive Bayes methods.
 + Mixer is a multilingual program, ie language independent. (Not tested)
-! So the training speed of the model depends not only on the size of the input dataset, =but also on the performance of the user's computer.
+! So the training speed of the model depends not only on the size of the input dataset, but also on the performance of the user's computer.
 ```
 All font types that UTF-8 supports are also supported by the Mixer.
 ### Import tab
