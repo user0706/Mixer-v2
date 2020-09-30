@@ -65,12 +65,7 @@ print(result)
 ```
 
 # Screenshots
-![](https://raw.githubusercontent.com/user0706/Mixer-v2/master/Ignore/Import.png)
-![](https://raw.githubusercontent.com/user0706/Mixer-v2/master/Ignore/Schema.png)
-![](https://raw.githubusercontent.com/user0706/Mixer-v2/master/Ignore/Analyze.png)
-![](https://raw.githubusercontent.com/user0706/Mixer-v2/master/Ignore/Train.png)
-![](https://raw.githubusercontent.com/user0706/Mixer-v2/master/Ignore/Evaluation.png)
-![](https://raw.githubusercontent.com/user0706/Mixer-v2/master/Ignore/Test.png)
+![](https://github.com/user0706/Mixer-v2/blob/master/Ignore/example.gif?raw=true)
 
 ## References
 Thanks a lot:
