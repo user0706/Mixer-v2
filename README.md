@@ -39,11 +39,7 @@ from joblib import load
 import numpy as np
 
 #Path to .joblib model
-'''
-EXAMPLE
--------
-	Windows: "G:\\PATH\\TO\\FILE\\model.joblib"
-'''
+# Example for Windows: "G:\\PATH\\TO\\FILE\\model.joblib"
 MODEL_PATH = ""
 
 #Loading a trained model
@@ -52,9 +48,7 @@ model, vectorizer, target = load(MODEL_PATH)
 #Processes the test sentence and returns the result of the class prediction
 def Test(name, model, ctg, vectorizer):
 	X_new = vectorizer.transform([name])
-
 	predicted = ['{:.3f}%'.format(i*100) for i in model.predict_proba(X_new).tolist()[0]]
-
 	return list(zip([ctg[i] for i in model.classes_], predicted))
 
 #The user enters a test sentence
@@ -67,7 +61,7 @@ result = Test(test_string, model, target, vectorizer)
 print(result)
 ```
 
-## Screenshots
+# Screenshots
 ![](https://raw.githubusercontent.com/user0706/Mixer-v2/master/Ignore/Import.png)
 ![](https://raw.githubusercontent.com/user0706/Mixer-v2/master/Ignore/Schema.png)
 ![](https://raw.githubusercontent.com/user0706/Mixer-v2/master/Ignore/Analyze.png)
