@@ -14,7 +14,10 @@ Mixer is a relatively small and simple tool for creating models for text classif
 + Mixer is a multilingual program, ie language independent. (Not tested)
 ! So the training speed of the model depends not only on the size of the input dataset, but also on the performance of the user's computer.
 ```
-All font types that UTF-8 supports are also supported by the Mixer.
+> All font types that UTF-8 supports are also supported by the Mixer.
+
+> Created and tested in Python 3.6 on Windows 7 x64!
+
 ### Import tab
 The home tab is import tab. Uses tabular data that you import to train the model.<br/> 
 Your dataset must have a minimum of two columns: sentences and targets. <br/>
@@ -30,8 +33,6 @@ By clicking on the question mark it is possible to see more detailed information
 The Evaluation tab provides the option to select one of the previously trained models. By default, the currently displayed information refers to the last trained model.<br/>As just mentioned the Evaluation tab provides an overview of the basic and additional information of the selected model.
 ### Test tab
 The selected model is tested here.<br/>After entering the sentence, the classification results are displayed as a percentage.<br/>The class with the highest percentage, is marked as the definitive answer, to the prediction of the class.
-
-> Created and tested in Python 3.6 on Windows 7 x64!
 
 # How to use the model?
 Example of application of a previously trained model.
