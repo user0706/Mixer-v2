@@ -1,12 +1,19 @@
+
 <p align="center">
   <img height="100" src="https://raw.githubusercontent.com/user0706/Mixer-v2/master/Ignore/Logo_v2_beta.png">
 </p>
 
-# About Mixer
-
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) [![python-version](https://img.shields.io/badge/Python-3.6|3.7-<COLOR>.svg)](https://www.python.org/) [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/) [![PyPI status](https://img.shields.io/pypi/status/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
+## Description
 The purpose of this program is to enable users who do not understand much about programming, that they can create a text classification model.
 
-Mixer is a relatively small and simple tool for creating models for text classification, inspired by Cloud AutoML. But with Mixer: 
+Mixer is a relatively small and simple tool for creating models for text classification, inspired by Cloud AutoML.
+
+The input `CSV` dataset can be imported online or locally (offline). It must also contain a minimum of two columns (sentences and targets), as well as, the dataset needs to be `UTF-8` encoded, comma delimited.
+<br>Within the program, if the dataset contains more than two required columns, additional corrections can be made. These corrections are in the form of selecting the desired columns as well as the desired targets.
+<br>After training and evaluation of the model, it is possible to test the trained model in direct interaction within the program.
+
+**Characteristics:**
 ```diff
 + The whole process takes place locally, offline.
 + The raw dataset as well as the trained model is not stored anywhere online.
@@ -18,23 +25,56 @@ Mixer is a relatively small and simple tool for creating models for text classif
 
 > Created and tested in Python 3.6 on Windows 7 x64!
 
-### Import tab
-The home tab is import tab. Uses tabular data that you import to train the model.<br/> 
-Your dataset must have a minimum of two columns: sentences and targets. <br/>
-The dataset can be selected locally, from a computer or online. It only supports CSV format which must be UTF-8 encoded, comma delimited.
-### Schema tab
-In the Schema tab the final modification of the raw data set is performed. This is where the required columns are selected as well as the desired target features.
-### Analyze tab
-In the Analyze tab an overview of the final data set that will be used to train the sentence classification model can be performed. 
-### Train tab
-Necessary and optional parameter settings for model training are performed here. <br/>
-By clicking on the question mark it is possible to see more detailed information as well as the available parameters. Of course if there is a desire or need for it.
-### Evaluation tab
-The Evaluation tab provides the option to select one of the previously trained models. By default, the currently displayed information refers to the last trained model.<br/>As just mentioned the Evaluation tab provides an overview of the basic and additional information of the selected model.
-### Test tab
-The selected model is tested here.<br/>After entering the sentence, the classification results are displayed as a percentage.<br/>The class with the highest percentage, is marked as the definitive answer, to the prediction of the class.
+:warning: **This is a beta version and probably contains some bugs. In that case, [report the new issue](https://github.com/user0706/Mixer-v2/issues).**
 
-# How to use the model?
+## Prerequisites
+Enter the following commands in the (terminal/cmd): 
+- Natural Language Toolkit (NLTK)
+```
+#Installing nltk library
+pip install nltk
+
+#Access to the python editor
+python
+(if not, try python3)
+
+#Import nltk functions
+import nltk
+
+#Download the punctuation package
+nltk.download('punkt')
+
+#Leaving the python editor
+exit()
+```
+- Seaborn
+```
+pip install seaborn
+```
+- matplotlib
+```
+pip install matplotlib
+```
+-	scikit-learn
+```
+pip install scikit-learn
+```
+## How to run Mixer?
+
+- Download repository
+```
+git clone https://github.com/user0706/Mixer-v2.git
+```
+- Entry into the download repository
+```
+cd Mixer-v2
+```
+- Start the program
+```
+python main.py
+(if not, try python3)
+```
+## How to use the model?
 Example of application of a previously trained model.
 
 ```python
@@ -64,14 +104,18 @@ result = Test(test_string, model, target, vectorizer)
 print(result)
 ```
 
-# Screenshots
+## Screenshots
 ![](https://github.com/user0706/Mixer-v2/blob/master/Ignore/example.gif?raw=true)
 
-## To-Do
-- [ ] Adapt code for big data
-- [ ] Implement image classification
+## License Information
+
+MIT License
 
 ## References
 Thanks a lot:
 * [svgrepo](https://www.svgrepo.com) for icons
 * [scikit-learn](https://scikit-learn.org/stable/) for Naive Bayes methods
+
+## To-Do
+- [ ] Adapt code for big data
+- [ ] Implement image classification
