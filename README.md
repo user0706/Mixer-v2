@@ -31,6 +31,8 @@ The Evaluation tab provides the option to select one of the previously trained m
 ### Test tab
 The selected model is tested here.<br/>After entering the sentence, the classification results are displayed as a percentage.<br/>The class with the highest percentage, is marked as the definitive answer, to the prediction of the class.
 
+> Created and tested in Python 3.6 on Windows 7 x64!
+
 # How to use the model?
 Example of application of a previously trained model.
 
