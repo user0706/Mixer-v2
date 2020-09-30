@@ -117,5 +117,6 @@ Thanks a lot:
 * [scikit-learn](https://scikit-learn.org/stable/) for Naive Bayes methods
 
 ## To-Do
+- [ ] Document the code
 - [ ] Adapt code for big data
 - [ ] Implement image classification
