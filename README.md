@@ -25,7 +25,7 @@ The input `CSV` dataset can be imported online or locally (offline). It must als
 
 > Created and tested in Python 3.6 on Windows 7 x64!
 
-:warning: **This is a beta version and probably contains some bugs. In that case, [report the new issue](https://github.com/user0706/Mixer-v2/issues).**
+:warning: **This is a beta version and probably contains some bugs. In that case, please [report the new issue](https://github.com/user0706/Mixer-v2/issues).**
 
 ## Prerequisites
 Enter the following commands in the (terminal/cmd): 
