@@ -67,6 +67,10 @@ print(result)
 # Screenshots
 ![](https://github.com/user0706/Mixer-v2/blob/master/Ignore/example.gif?raw=true)
 
+## To-Do
+- [ ] Adapt code for big data
+- [ ] Implement image classification
+
 ## References
 Thanks a lot:
 * [svgrepo](https://www.svgrepo.com) for icons
